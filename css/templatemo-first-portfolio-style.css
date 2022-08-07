@@ -757,10 +757,10 @@ strong {
 }
 
 .projects-tag {
-  font-size: var(--menu-font-size);
+  font-size: 15;
   font-weight: var(--font-weight-medium);
   color: var(--secondary-color);
-  text-transform: uppercase;
+  text-transform: none;
   margin-bottom: 5px;
 }
 
