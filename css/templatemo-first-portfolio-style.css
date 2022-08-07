@@ -723,6 +723,7 @@ strong {
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
+  min-height: 369px;
   margin-top: 24px;
   margin-bottom: 24px;
   padding: 40px;
@@ -757,7 +758,7 @@ strong {
 }
 
 .projects-tag {
-  font-size: 15;
+  font-size: 21;
   font-weight: var(--font-weight-medium);
   color: var(--secondary-color);
   text-transform: none;
