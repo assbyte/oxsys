@@ -335,7 +335,7 @@ strong {
 }
 
 .navbar .container {
-  border-radius: var(--border-radius-large);
+  border-radius: var(--border-radius-medium);
   padding: 10px 25px;
 }
 
@@ -477,7 +477,7 @@ strong {
 .hero h1 {
   background: var(--white-color);
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
-  border-radius: var(--border-radius-medium);
+  border-radius: var(--border-radius-large);
   display: inline-block;
   padding: 8px 24px;
 }
@@ -485,7 +485,7 @@ strong {
 .hero h2 {
   background: var(--white-color);
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
-  border-radius: var(--border-radius-medium);
+  border-radius: var(--border-radius-large);
   display: inline-block;
   padding: 8px 24px;
 }
