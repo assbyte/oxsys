@@ -174,7 +174,7 @@ button::-moz-focus-inner {
   width: 0px;
   height: 0px;
   -webkit-tap-highlight-color: transparent; }
-  .mfp-arrow:active {
+  .mfp-arrow:inactive {
     margin-top: -54px; }
   .mfp-arrow:hover,
   .mfp-arrow:focus {
