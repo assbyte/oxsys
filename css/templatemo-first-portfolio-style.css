@@ -352,8 +352,8 @@ strong {
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
-  margin-right: 20px;
-  margin-left: 131px;
+  margin-right: 31px;
+  margin-left: 31px;
 }
 
 .navbar-nav .nav-link {
@@ -749,8 +749,9 @@ strong {
   border-radius: var(--border-radius-medium);
   display: block;
   width: 100%;
-  transform: rotate(10deg) translateY(80px);
-  transition: all ease 0.5s;
+  height: 100%;
+  transform: rotate(0.31deg) translateY(31px);
+  transition: all ease 0.99s;
 }
 
 .projects-title {
