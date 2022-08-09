@@ -4,7 +4,7 @@
 :root {
   --white-color:                  #F9F9F9;
   --primary-color:                #535da1;
-  --secondary-color:              #90AFC4;
+  --secondary-color:              #d0d5f7;
   --section-bg-color:             #f9f9f9;
   --dark-color:                   #000000;
   --p-color:                      #717275;
@@ -16,11 +16,11 @@
   --h1-font-size:                 62px;
   --h2-font-size:                 48px;
   --h3-font-size:                 36px;
-  --h4-font-size:                 32px;
+  --h4-font-size:                 36px;
   --h5-font-size:                 24px;
   --h6-font-size:                 22px;
-  --p-font-size:                  18px;
-  --menu-font-size:               12px;
+  --p-font-size:                  20px;
+  --menu-font-size:               18px;
   --copyright-font-size:          14px;
 
   --border-radius-large:          100px;
