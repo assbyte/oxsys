@@ -138,8 +138,23 @@ a:hover {
 }
 
 .section-padding {
-  padding-top: 120px;
+  padding-top: 113px;
+  padding-bottom: 113px;
+}
+
+.products-padding {
+  padding-top: 113px;
+  padding-bottom: 88px;
+}
+
+.features-padding {
+  padding-top: 0px;
   padding-bottom: 120px;
+}
+
+.fda-section-padding {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 b,
@@ -643,6 +658,11 @@ strong {
 	height: 120px;
 }
 
+.clients-vid-height {
+	height: 256px;
+  width: 440px;
+}
+
 .clients-image {
   display: block;
   max-width: 100px;
@@ -1066,6 +1086,11 @@ strong {
   .section-padding {
     padding-top: 80px;
     padding-bottom: 80px;
+  }
+
+  .fda-section-padding {
+    padding-top: 13px;
+    padding-bottom: 13px;
   }
 
   .custom-btn,
