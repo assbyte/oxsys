@@ -694,6 +694,7 @@ strong {
   margin-bottom: 24px;
   padding: 40px 40px 240px 40px;
   transition: all 0.5s;
+  max-height: 369px;
 }
 
 .services-thumb-up {
@@ -720,7 +721,7 @@ strong {
   bottom: 0;
   right: 0;
   width: 60%;
-  height: 50%;
+  height: 47%;
   transform: rotate(-35deg) translateY(55px);
   transition: all ease 0.5s;
 }
