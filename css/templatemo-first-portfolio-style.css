@@ -35,6 +35,7 @@
   --copyright-font-size:          15px;
 
   --border-radius-large:          69px;
+  --border-radius-larg:           50px;
   --border-radius-medium:         31px;
   --border-radius-small:          13px;
 
@@ -1239,6 +1240,10 @@ strong {
 
   .hero-image {
     min-width: inherit;
+  }
+
+  .hero h2 {
+    font-size: 28px;
   }
 }
 
