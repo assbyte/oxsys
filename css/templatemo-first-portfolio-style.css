@@ -148,7 +148,7 @@ a:hover {
 }
 
 .features-padding {
-  padding-top: 0px;
+  padding-top: 45px;
   padding-bottom: 120px;
 }
 
@@ -291,7 +291,7 @@ strong {
 
 .custom-btn:hover {
   background: var(--primary-color);
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  box-shadow: 0 3rem 3rem rgba(0,0,0,.175);
   color: var(--white-color);
 }
 
