@@ -153,8 +153,8 @@ a:hover {
 }
 
 .fda-section-padding {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 22px;
+  padding-bottom: 22px;
 }
 
 b,
@@ -1089,9 +1089,14 @@ strong {
     padding-bottom: 80px;
   }
 
+  .features-padding {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+
   .fda-section-padding {
-    padding-top: 13px;
-    padding-bottom: 13px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .custom-btn,
@@ -1112,6 +1117,11 @@ strong {
   .navbar-tm,
   .navbar-tm:hover {
     color: var(--dark-color);
+  }
+
+  .navbar-tm {
+    font-size: 0px;
+    font-weight: var(--font-weight-regular);
   }
 
   .navbar-icon {
