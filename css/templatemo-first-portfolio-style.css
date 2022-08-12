@@ -1,4 +1,22 @@
 @font-face {
+  font-family: 'quantum';
+  src: url('quantum.woff2') format('woff2'),
+      url('quantum.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inertia';
+  src: url('InertiaRegular.woff2') format('woff2'),
+      url('InertiaRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
     font-family: 'Skandar';
     src: url('Skandar.woff2') format('woff2'),
         url('Skandar.woff') format('woff');
@@ -370,14 +388,14 @@ strong {
 }
 
 .navbar-brand {
-  font-family: 'Skandar';
+  font-family: 'quantum';
   font-size: var(--h4-font-size);
   font-weight: var(--font-weight-bold);
 }
 
 .navbar-tm {
   font-size: var(--p-font-size);
-  font-weight: var(--font-weight-regular);
+  font-weight: var(--font-weight-bold);
 }
 
 .navbar-brand,
@@ -521,6 +539,7 @@ strong {
   border-radius: var(--border-radius-large);
   display: inline-block;
   padding: 8px 24px;
+  font-family: 'Inertia';
 }
 
 .hero h2 {
@@ -693,6 +712,10 @@ strong {
   padding: 20px 20px 240px 20px;
   transition: all 0.69s;
   max-height: 169px;
+}
+
+.services-thumb p{
+  color: #555555;
 }
 
 .services-thumb-up {
@@ -1284,7 +1307,13 @@ strong {
   }
 
   .hero h2 {
-    font-size: 28px;
+    font-size: 27px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .hero h2 {
+    font-size: 26px;
   }
 }
 
