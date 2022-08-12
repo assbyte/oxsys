@@ -548,6 +548,16 @@ strong {
   border-radius: var(--border-radius-large);
   display: inline-block;
   padding: 8px 24px;
+  margin-left: 31px;
+}
+
+.hero h6 {
+  background: var(--white-color);
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  border-radius: var(--border-radius-large);
+  display: inline-block;
+  padding: 8px 24px;
+  margin-left: 69px;
 }
 
 .hero-title {
@@ -556,6 +566,11 @@ strong {
 
 .hero h2 {
 	font-size: 31px;
+}
+
+.hero h6 {
+  color: var(--secondary-color);
+	font-size: var(--h2-font-size);
 }
 
 .hero-text {
