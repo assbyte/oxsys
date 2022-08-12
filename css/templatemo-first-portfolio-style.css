@@ -885,7 +885,7 @@ strong {
 .form-check-label-text {
   color: var(--p-color);
   display: block;
-  font-size: copyright-font-size;
+  font-size: var(--copyright-font-size);
   margin-top: 5px;
 }
 
@@ -959,9 +959,9 @@ strong {
 }
 
 .copyright-text {
-  border-right: 1px solid var(--border-color);
-  padding-right: 25px;
-  margin-right: 20px;
+  border-right: 0px solid var(--border-color);
+  padding-right: 0px;
+  margin-right: 0px;
 }
 
 .copyright-text-wrap a {
