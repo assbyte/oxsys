@@ -1275,8 +1275,14 @@ strong {
   }
 
   .hero-text {
+    margin-top: 100px;
     top: 0;
-    margin-bottom: 120px;
+    margin-bottom: 0px;
+  }
+
+  .hero-image {
+    margin-left: 150px;
+    margin-bottom: 50px;
   }
 
   .about-thumb {
@@ -1719,6 +1725,16 @@ strong {
 
   .hero h6 {
     font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 348px) {
+  .hero h2 {
+    font-size: 20px;
+  }
+
+  .hero h6 {
+    font-size: 20px;
   }
 }
 
