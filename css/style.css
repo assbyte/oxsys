@@ -1099,6 +1099,12 @@ strong {
 	}
 }
 
+@media screen and (max-width: 1199px) {
+  .hero-image {
+    margin-left: -96px;
+  }
+}
+
 @media screen and (max-width: 1180px) {
   .hero-image {
     position: absolute;
@@ -1106,7 +1112,6 @@ strong {
     top: 0;
     width: 80%;
     min-width: 550px;
-    margin-left: -96px;
   }
 
   .services-thumb h3{
@@ -1141,7 +1146,6 @@ strong {
     top: 0;
     width: 80%;
     min-width: 550px;
-    margin-left: -96px;
   }
 
   .services-icon-wrap {
@@ -1544,6 +1548,10 @@ strong {
 }
 
 @media screen and (max-width: 575px) {
+  .hero-image {
+    margin-left: 5px;
+  }
+
   .navbar .container {
     margin-right: 12px;
     margin-left: 12px;
@@ -1627,7 +1635,7 @@ strong {
 
   .hero-image {
     min-width: inherit;
-    margin-left: -13px;
+    margin-left: 0px;
     margin-top: 13px;
     width: 131%;
   }
